@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RaftConsole/1.0.0": {
+        "dependencies": {
+          "Raft": "1.6.0"
+        },
+        "runtime": {
+          "RaftConsole.dll": {}
+        }
+      },
+      "DBreeze/1.95.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/DBreeze.dll": {
+            "assemblyVersion": "1.95.2019.812",
+            "fileVersion": "1.95.2019.812"
+          }
+        }
+      },
+      "Raft/1.6.0": {
+        "dependencies": {
+          "DBreeze": "1.95.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Raft.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RaftConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBreeze/1.95.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2vr9M6p6ojRrrtgazHQdYY/SnYfWhkJcn+qN6B37oWvZY/ZAL/Jo2qr4Yb5GbqzNHg5OEmq1KeTEArd5FLKGbg==",
+      "path": "dbreeze/1.95.0",
+      "hashPath": "dbreeze.1.95.0.nupkg.sha512"
+    },
+    "Raft/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ySY/CdoLibCjVbwtLBd7VWdBBKK3DdMHFyBU2u63pb5e1shmS00inWA9ypYw9uPq3lOr40fIl8vdpM5xTeZng==",
+      "path": "raft/1.6.0",
+      "hashPath": "raft.1.6.0.nupkg.sha512"
+    }
+  }
+}
